@@ -1,0 +1,29 @@
+.camp-box{
+    min-height: 500px;
+    margin-top: 90px;
+    padding: 25px;
+    background-image: linear-gradient(to right top, #d46fd114, #b575d812, #937ad91c, #717dd51c, #4e7ecd0f);
+}
+.inner-content{
+    text-align: left;
+}
+.Tabs-inner{
+    background-color: white !important;
+}
+.detail-heading{
+    font-weight: 500;
+}
+.inner-content .nav-tabs .nav-link {
+    font-weight: 500;
+    padding: 5px 30px;
+    font-size: 19px;
+}
+.inner-content .nav-link{
+    color: #4053dc !important;
+}
+@media (max-width:768px) {
+   
+    .inner-content{
+        margin-bottom: 30px !important;
+    }
+}

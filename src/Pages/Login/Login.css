@@ -1,0 +1,145 @@
+.LoginSection {
+  background-image: url("../../assets/images/Loginimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.LoginRow {
+  padding: 20px;
+  height: 100vh;
+}
+.LoginFormRow {
+  margin: 75px 200px;
+  background: #fff;
+  border-radius: 25px;
+}
+.LoginFormCol {
+  height: auto;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px #b575d8;
+}
+.LoginForm {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.Logoimg {
+  width: 80px;
+  height: 60px;
+  float: right;
+}
+.FormInput {
+  border: 1px solid #e9ecef !important;
+}
+.FormInput:focus {
+  box-shadow: 0 0 0 0.1rem #e2c5f1 !important;
+}
+#check:focus {
+  background-color: #b575d8;
+  border: none;
+}
+.form-check-input:checked {
+  background-color: #b575d8 !important;
+  border: none !important;
+}
+.form-check-label {
+  margin-left: 5px !important;
+}
+.LeftRight:hover {
+  color: #4053dc !important;
+}
+/* Register Form Css */
+.RegisterFormRow {
+  margin: 40px 200px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.Register:hover {
+  color: #fff !important;
+}
+/* Login button effect */
+.button {
+  width: 200px;
+  height: 38px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btnGo {
+  position: relative;
+  width: 240px;
+  height: 100px;
+  margin-top: -104px;
+  padding-top: 2px;
+  background: #b575d8;
+  left: -250px;
+  transition: 0.3s;
+}
+.btnLogin {
+  color: white;
+  transition: 0.3s;
+}
+.btnTextGo {
+  margin-top: 63px;
+  margin-right: -50px;
+  color: #fff;
+}
+.button:hover .btnGo {
+  left: -130px;
+}
+.button:hover .btnTextGo {
+  margin-left: 65px;
+}
+.button:active {
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
+}
+.LoginForm {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.LoginButtonDiv {
+  display: flex;
+  justify-content: start;
+}
+/* pwderrormsg badcredintials */
+.btn-close-icon {
+  width: 0em !important;
+  height: 0em !important;
+}
+.btn-close-icon:focus {
+  box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.errordiv {
+  background: #ff00002b;
+  padding: 10px 10px 10px 20px;
+  color: red;
+}
+
+.succesdiv {
+  background: #0080001a;
+  padding: 10px 10px 10px 20px;
+  color: green;
+}
+/* media query for mobile view */
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .LoginForm {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .LoginFormRow,
+  .RegisterFormRow {
+    margin: 0px 0px !important;
+  }
+  .LoginSection {
+    background-image: none !important;
+  }
+  .LoginButtonDiv {
+    display: unset !important;
+    justify-content: initial !important;
+  }
+  .Logoimg {
+    width: 70px !important;
+  }
+}

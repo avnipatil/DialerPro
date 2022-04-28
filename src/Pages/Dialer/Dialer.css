@@ -1,0 +1,279 @@
+.dieler_detbox {
+    border: 1px solid #80808047;
+    margin: 10px 0px;
+}
+
+.FormLayout {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+}
+
+.Number-box {
+    text-align: left;
+}
+
+.Dial-buttons {
+    justify-content: space-between;
+}
+
+.time {
+    font-weight: 500;
+    color: #413f3f;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #5b6be2 !important;
+}
+
+.DialPadLayOut {
+    background-image: linear-gradient(to right top, #d46fd133, #b575d842, #937ad952, #717dd552, #4e7ecd4a);
+    margin: 0px 12px;
+    padding: 8px 0px;
+}
+
+.react-tel-input .form-control {
+    width: 205px !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(181, 181, 181) !important;
+    border-radius: 0 o !important;
+}
+
+.DialIcons {
+    margin: 0px 3px;
+    padding: 4px 0px !important;
+    background-color: white;
+    width: -webkit-fill-available !important;
+    border: 1px solid darkviolet;
+}
+
+.DialIcons:hover {
+    background-image: linear-gradient(to right top, #D46FD1, #B575D8, #937AD9, #717DD5, #4E7ECD);
+    color: white !important;
+}
+
+.phoneCall {
+    color: darkviolet;
+}
+
+.phoneHang {
+    color: darkviolet;
+}
+
+.disable {
+    border: 1px solid #80808070;
+    background-color: white !important;
+    color: #80808070 !important;
+    margin: 0px 3px;
+    padding: 4px 0px !important;
+    width: -webkit-fill-available !important;
+}
+
+.disable:hover {
+    background-image: none !important;
+    color: #80808070 !important;
+    cursor: not-allowed;
+}
+
+.disableFun {
+    color: #80808070 !important;
+    cursor: not-allowed !important;
+    margin: 0px 5px;
+    background-color: white;
+    width: 19%;
+    padding: 9px 0px;
+    border: 3px solid #cfcff2c9;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.disableFun:hover {
+    background-color: white !important;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.DialNumber {
+    margin: 0px 5px;
+    background-color: white;
+    /* background-color: rgb(232, 229, 229); */
+    color: #00000099;
+    width: 19%;
+    padding: 9px 0px;
+    border: 3px solid #cfcff2c9;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.DialNumber:hover {
+    background-image: linear-gradient(to right top, #D46FD1, #B575D8, #937AD9, #717DD5, #4E7ECD);
+    color: white !important;
+    border: none !important;
+}
+
+.proform_bordernone {
+    border: none;
+}
+
+.proform_bordernone:focus {
+    outline: none;
+}
+
+.proform_bordernone:disabled {
+    background-color: white !important;
+}
+
+.proform_borderyes {
+    border-bottom: 1px solid darkblue;
+}
+
+/* CallHistory CSS */
+.CallHis-Layout {
+    box-shadow: 1px 1px 9px 0px #80808036;
+    margin: 8px 12px;
+    padding: 6px 15px;
+    text-align: left;
+}
+
+/* Phone Input Css */
+.PhoneInput {
+    display: flex !important;
+}
+
+input:focus-visible {
+    outline: none !important;
+}
+
+.PhoneInputInput {
+    border: none;
+}
+
+/* Dialer status CSS */
+.frequency {
+    background-color: #b8b6b629;
+    height: 20px;
+}
+
+.Disposition-Layout {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+.campg_dethead {
+    color: darkblue;
+}
+
+.campg_dethead:hover {
+    color: blueviolet;
+}
+
+.campbox_Cols {
+    text-align: justify;
+}
+
+.tab_contentbox {
+    background-color: white;
+    border: transparent;
+    text-align: justify;
+}
+
+.dialer_tabcontent .nav-tabs .nav-link {
+    color: #4053dc !important;
+    font-weight: bold;
+}
+
+.dialer_tabcontent .nav-tabs .nav-link.active {
+    font-weight: bold;
+    color: #fff !important;
+    background-image: linear-gradient(to right top, #D46FD1, #B575D8, #937AD9, #717DD5, #4E7ECD) !important;
+}
+
+.txttabs {
+    background-image: linear-gradient(to right top, #d46fd114, #b575d812, #937ad91c, #717dd51c, #4e7ecd0f) !important;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.scriptpara {
+    overflow-y: scroll;
+}
+
+.modal-open {
+    overflow: auto !important;
+    padding-right: 0px !important;
+}
+
+.modal-lg {
+    max-width: 1200px !important;
+}
+
+.tbl_modelrow {
+    background-image: linear-gradient(to right top, #d46fd114, #b575d812, #937ad91c, #717dd51c, #4e7ecd0f) !important;
+}
+
+.create_prosbtn {
+    justify-content: space-between;
+}
+
+
+/* Corrousal css */
+.carousel-indicators {
+    display: none !important;
+}
+
+.dialer_tabcontent .carousel-control-prev-icon {
+    width: 50px;
+    background-image: url('../../assets/images/previcon.png');
+    background-color: #4053dc !important;
+}
+
+.dialer_tabcontent .carousel-control-next-icon {
+    background-image: url('../../assets/images/nexticonimg.png');
+    background-color: #4053dc !important;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .dialer_tabcontent {
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .dialer_tabcontent {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .resdiv_hide{display: none;}
+    
+}
+
+@media(max-width:1200px) {
+
+    .DialNumber,
+    .disableFun {
+        padding: 5px 0px !important;
+    }
+}
+
+@media(max-width:992px) {
+
+    .DialNumber,
+    .disableFun {
+        padding: 10px 0px !important;
+        width: 17%;
+    }
+}
+
+@media(max-width:768px) {
+
+    .DialNumber,
+    .disableFun {
+        padding: 10px 0px !important;
+        width: 17%;
+    }
+}
